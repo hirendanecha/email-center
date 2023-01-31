@@ -1,0 +1,67 @@
+.cenbox {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    width: 25%;
+    height: fit-content;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.option_box1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.option_box2 {
+    display: flex;
+    align-items: center;
+}
+
+.option_box {
+    display: flex;
+    align-items: center;
+    border: 2px solid #00000029;
+    border-radius: 5px;
+    margin: 5% 0%;
+    padding: 2%;
+}
+
+.option_namebox {
+    padding: 0%;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.text {
+    font-size: 17
+}
+
+.badge {
+    height: 20px;
+    width: 40px;
+    border: 1px solid #5ee2a0;
+    border-radius: 5px;
+    opacity: 0.25;
+    background: #5ee2a0 0% 0% no-repeat padding-box;
+    margin-right: 12px;
+    display: flex;
+}
+
+.content {
+    border: 2px solid #00000029;
+    border-radius: 5px;
+    margin: 5% 0%;
+    padding: 2%;
+}
